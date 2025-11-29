@@ -55,6 +55,7 @@ internal sealed class ListBuyerPurchasesRequestHandler(
 
         var purchases = await context
             .Purchases
+            .Where(p => p.BuyerId == request.BuyerId)
             .Select(p => new PurchaseResponse
             {
                 Id = p.Id,
