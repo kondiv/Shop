@@ -303,11 +303,11 @@
 	"variable": [
 		{
 			"key": "base_url",
-			"value": ""
+			"value": "http://localhost:5088"
 		},
 		{
 			"key": "item_quantity",
-			"value": ""
+			"value": "5"
 		},
 		{
 			"key": "created_item_id",
